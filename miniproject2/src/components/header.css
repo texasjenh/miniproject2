@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .header {
+    display: flex;
+    position: relative;
+    background-image: url("images/bookshelf.jpg");
+    min-height: 500px;
+    justify-content: center;
+  }
+
+  /* Increase the font size of the heading */
+  .h1 {
+    font-family: "Playwrite AU SA", serif;
+    font-size: 96px;
+    color: #ffffff;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    animation-name: colorchange;
+    animation-duration: 8s;
+  }
+
+  @keyframes colorchange {
+    0%   {color:#ffffff;}
+    25%  {color: #445E93;}
+    50%  {color:#cc5803;}
+    75%  {color: #9c68a7;}
+    100% {color:#ffffff}
+  }
+
