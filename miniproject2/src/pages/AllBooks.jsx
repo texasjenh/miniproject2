@@ -243,11 +243,11 @@ function AllBooks () {
 
     return (
         <>
+             <section class="section">
+                <h2 class="head2"><i class="fa-solid fa-book"></i> Available Books</h2>
+            </section>
+            
             <div>
-                <h2 className="head2"><i className="fa-solid fa-book-open-reader"></i> Find your next great read!</h2>
-                <br/>
-                <br/>
-                <br/>
                 <h3 className="head3a"> <i className="fa-solid fa-glasses"></i> Literary Fiction</h3>
                 <br/>
                 <br/>

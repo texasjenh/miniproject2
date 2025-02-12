@@ -1,20 +1,42 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './components/header'
-import AllBooks from './components/AllBooks'
-import Navbar from './components/navbar'
+// import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Header from './pages/header'
+import Navbar from './pages/navbar'
+import AllBooks from './pages/AllBooks'
+import AboutUs from './pages/AboutUs'
+import Footer from './pages/footer'
+import EmailForm from './pages/EmailList'
+import HomePage from './pages/HomePage'
+import SubscribeForm from './components/Subscribe'
+
+
 
 
 function App() {
   return (
-      <div className="App">
-          <Header />
-          {/* <Navbar /> */}
-          <br />
-          <AllBooks/>
-      </div>
+      // <BrowserRouter>
+      //   <Routes>
+      //     <Route path="/" element={<Header />}>
+      //       <Route index element={<HomePage />}/>
+      //       <Route path="AllBooks" element={<AllBooks />} />
+      //       <Route path="AboutUs" element={<AboutUs />} />
+      //     </Route>
+      //   </Routes>
+      // </BrowserRouter>
+        
+    <div className="App">
+        <Header />
+        <Navbar />
+        <br />
+        <HomePage />
+          {/* <EmailForm /> */}
+        <AllBooks/>
+        <AboutUs />
+        <br />
+        <Footer />
+
+    </div>
   )
 }
 

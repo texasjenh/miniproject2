@@ -1,0 +1,11 @@
+.footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #2e799b;
+    color: #ffffff;
+    text-align: right;
+    font-family: "Lexend Exa", sans-serif;
+  } 
